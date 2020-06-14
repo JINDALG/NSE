@@ -16,8 +16,8 @@ def update_shares_price():
 	    	try :
 	    		try :
 	    			rate = float(ystockquote.get_price(self.code))
-	    		except Exception,err :
-	    			print err
+	    		except Exception as err :
+	    			print(err)
 	    			return
 	    		share = stock.objects.get(code=self.code)
 	    		if share.price != rate:
@@ -27,9 +27,9 @@ def update_shares_price():
 	    			share.max_price_of_day = rate
 	    		share.save()
 	    		connection.close()
-	    		print "sucess"
-	    	except Exception,err:
-	    		print err
+	    		print ("sucess")
+	    	except Exception as err:
+	    		print (err)
 	    		return		
 
 	class nse (threading.Thread):
@@ -42,8 +42,8 @@ def update_shares_price():
 	    		try :
 	    			rate = nse.get_quote(str(self.code))
 	    			rate = rate['lastPrice']
-	    		except Exception,err :
-	    			print err
+	    		except Exception as err :
+	    			print(err)
 	    			return
 	    		share = stock.objects.get(code=self.code)
 	    		if share.price != rate:
@@ -52,9 +52,9 @@ def update_shares_price():
 	    		if rate > share.max_price_of_day:
 	    			share.max_price_of_day = rate
 	    		share.save()
-	    		print "sucess"
-	    	except Exception,err:
-	    		print err
+	    		print ("sucess")
+	    	except Exception as err:
+	    		print (err)
 	    		return			
 
 	try :
@@ -79,8 +79,8 @@ def update_shares_price():
 				#print type(share.code)
 				thread = nyse(share.code)
 				thread.start()
-	except Exception,err:
-		print err
+	except Exception as err:
+		print (err)
 
 def reset_max_shares_price():
 	try :
