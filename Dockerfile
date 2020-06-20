@@ -15,12 +15,13 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install --upgrade pip
 COPY ./requirements.txt ./requirements.txt
 
-RUN pip uninstall -r requirements.txt
+# RUN pip uninstall -r requirements.txt
 RUN pip install -r requirements.txt
 
 # copy project
 COPY . ./
 
+RUN chmod 777 -R ./
 
 # run entrypoint.sh
 ENTRYPOINT ["/home/workspace/nse/entrypoint.sh"]
