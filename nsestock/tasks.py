@@ -2,7 +2,7 @@ from celery.task.schedules import crontab
 from celery.decorators import periodic_task
 from celery.utils.log import get_task_logger
 
-import utils
+from nsestock.utils import update_shares_price, reset_max_shares_price
 
 logger = get_task_logger(__name__)
 
@@ -15,7 +15,7 @@ def update_price():
     """
     price updated.
     """
-    utils.update_shares_price()
+    update_shares_price()
     logger.info("Price updated")
 
 
@@ -28,7 +28,7 @@ def update_price():
 #     """
 #     max price updat.
 #     """
-#     utils.reset_max_shares_price()
+#     reset_max_shares_price()
 #     print "price reset"
 #     logger.info("Price updated")
 

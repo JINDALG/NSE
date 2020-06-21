@@ -19,7 +19,7 @@ class stock(models.Model):
 		return self.name
 
 class userstock(models.Model):
-	name = models.OneToOneField(User)
+	name = models.OneToOneField(User, on_delete=models.CASCADE)
 	shares  = models.CharField(max_length =10000,default = "",)
 	balance = models.FloatField(default = 1000000.0000)
 
