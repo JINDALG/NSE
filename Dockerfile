@@ -9,7 +9,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # install psycopg2 dependencies
-#RUN apt-get update && apt-get install redis-server
+RUN apt-get update -y && apt-get install -y build-essential default-libmysqlclient-dev default-mysql-client
 
 # install dependencies
 RUN pip install --upgrade pip

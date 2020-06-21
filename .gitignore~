@@ -1,6 +1,0 @@
-*.pyc
-celerybeat.pid
-celerybeat-schedule
-db.sqlite3
-migrations/*
-db.sqlite3-journal
