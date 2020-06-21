@@ -23,5 +23,3 @@ COPY . ./
 
 RUN chmod 777 -R ./
 
-# run entrypoint.sh
-ENTRYPOINT ["/home/workspace/nse/entrypoint.sh"]

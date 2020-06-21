@@ -1,0 +1,400 @@
+- model: nsestock.stock
+  pk: aa
+  fields:
+    name: Alcoa
+    price: 10.905
+    max_price_of_day: 11.08
+    stock_Exchange: NYSE
+    update: 111
+- model: nsestock.stock
+  pk: ASHOKLEY
+  fields:
+    name: ASHOK LEYLAND LIMITED
+    price: 102.05
+    max_price_of_day: 107.4
+    stock_Exchange: NSE
+    update: 136
+- model: nsestock.stock
+  pk: ASIANPAINT
+  fields:
+    name: "ASIAN PAINTS LIMITED\t"
+    price: 874.6
+    max_price_of_day: 879.65
+    stock_Exchange: NSE
+    update: 139
+- model: nsestock.stock
+  pk: auy
+  fields:
+    name: "Yamana Gold Inc.\t"
+    price: 4.765
+    max_price_of_day: 4.985
+    stock_Exchange: NYSE
+    update: 97
+- model: nsestock.stock
+  pk: bac
+  fields:
+    name: "Bank of America\t"
+    price: 14.665
+    max_price_of_day: 15.11
+    stock_Exchange: NYSE
+    update: 103
+- model: nsestock.stock
+  pk: BAJAJ-AUTO
+  fields:
+    name: BAJAJ AUTO LIMITED
+    price: 2461.4
+    max_price_of_day: 2547.0
+    stock_Exchange: NSE
+    update: 142
+- model: nsestock.stock
+  pk: BHARTIARTL
+  fields:
+    name: BHARTI AIRTEL LIMITED
+    price: 361.1
+    max_price_of_day: 371.85
+    stock_Exchange: NSE
+    update: 143
+- model: nsestock.stock
+  pk: BRITANNIA
+  fields:
+    name: BRITANNIA INDUSTRIES LIMITED
+    price: 2820.85
+    max_price_of_day: 2869.0
+    stock_Exchange: NSE
+    update: 144
+- model: nsestock.stock
+  pk: cpe
+  fields:
+    name: "Callon\t"
+    price: 10.49
+    max_price_of_day: 10.57
+    stock_Exchange: NYSE
+    update: 106
+- model: nsestock.stock
+  pk: cx
+  fields:
+    name: "Cemex\t"
+    price: 7.525
+    max_price_of_day: 7.601
+    stock_Exchange: NYSE
+    update: 88
+- model: nsestock.stock
+  pk: DLF
+  fields:
+    name: DLF LIMITED
+    price: 120.7
+    max_price_of_day: 130.4
+    stock_Exchange: NSE
+    update: 135
+- model: nsestock.stock
+  pk: ENGINERSIN
+  fields:
+    name: ENGINEERS INDIA LIMITED
+    price: 173.05
+    max_price_of_day: 180.95
+    stock_Exchange: NSE
+    update: 141
+- model: nsestock.stock
+  pk: f
+  fields:
+    name: "Ford Motor\t"
+    price: 13.66
+    max_price_of_day: 13.785
+    stock_Exchange: NYSE
+    update: 103
+- model: nsestock.stock
+  pk: fcx
+  fields:
+    name: "Freeport Mcmoran\t"
+    price: 13.49
+    max_price_of_day: 13.85
+    stock_Exchange: NYSE
+    update: 114
+- model: nsestock.stock
+  pk: ge
+  fields:
+    name: "Gen Electric\t"
+    price: 30.83
+    max_price_of_day: 30.94
+    stock_Exchange: NYSE
+    update: 103
+- model: nsestock.stock
+  pk: goog
+  fields:
+    name: Google
+    price: 692.14
+    max_price_of_day: 721.6801
+    stock_Exchange: NYSE
+    update: 118
+- model: nsestock.stock
+  pk: HEROMOTOCO
+  fields:
+    name: HERO MOTOCORP LIMITED
+    price: 2896.0
+    max_price_of_day: 2962.0
+    stock_Exchange: NSE
+    update: 143
+- model: nsestock.stock
+  pk: hl
+  fields:
+    name: "Hecla Mining\t"
+    price: 4.29
+    max_price_of_day: 4.33
+    stock_Exchange: NYSE
+    update: 94
+- model: nsestock.stock
+  pk: hpq
+  fields:
+    name: "Hewlett Packard\t"
+    price: 12.07
+    max_price_of_day: 12.62
+    stock_Exchange: NYSE
+    update: 95
+- model: nsestock.stock
+  pk: ibn
+  fields:
+    name: "Icici Bank\t"
+    price: 6.77
+    max_price_of_day: 7.84
+    stock_Exchange: NYSE
+    update: 66
+- model: nsestock.stock
+  pk: IGL
+  fields:
+    name: INDRAPRASTHA GAS LIMITED
+    price: 572.1
+    max_price_of_day: 585.95
+    stock_Exchange: NSE
+    update: 131
+- model: nsestock.stock
+  pk: INFY
+  fields:
+    name: INFOSYS LIMITED
+    price: 1188.4
+    max_price_of_day: 1219.25
+    stock_Exchange: NSE
+    update: 146
+- model: nsestock.stock
+  pk: ipg
+  fields:
+    name: "Interpublic\t"
+    price: 23.215
+    max_price_of_day: 23.48
+    stock_Exchange: NYSE
+    update: 92
+- model: nsestock.stock
+  pk: JINDALSTEL
+  fields:
+    name: JINDAL STEEL & POWER LIMITED
+    price: 66.3
+    max_price_of_day: 74.75
+    stock_Exchange: NSE
+    update: 148
+- model: nsestock.stock
+  pk: key
+  fields:
+    name: "Keycorp\t"
+    price: 12.465
+    max_price_of_day: 12.62
+    stock_Exchange: NYSE
+    update: 93
+- model: nsestock.stock
+  pk: ko
+  fields:
+    name: "Coca Cola\t"
+    price: 44.795
+    max_price_of_day: 45.14
+    stock_Exchange: NYSE
+    update: 98
+- model: nsestock.stock
+  pk: LT
+  fields:
+    name: LARSEN & TOUBRO LIMITED
+    price: 1248.95
+    max_price_of_day: 1267.0
+    stock_Exchange: NSE
+    update: 145
+- model: nsestock.stock
+  pk: M&M
+  fields:
+    name: MAHINDRA & MAHINDRA LIMITED
+    price: 1320.4
+    max_price_of_day: 1344.75
+    stock_Exchange: NSE
+    update: 154
+- model: nsestock.stock
+  pk: MARUTI
+  fields:
+    name: MARUTI SUZUKI INDIA LIMITED
+    price: 3810.0
+    max_price_of_day: 3837.0
+    stock_Exchange: NSE
+    update: 143
+- model: nsestock.stock
+  pk: mcd
+  fields:
+    name: "Mcdonalds\t"
+    price: 128.118
+    max_price_of_day: 128.18
+    stock_Exchange: NYSE
+    update: 105
+- model: nsestock.stock
+  pk: mro
+  fields:
+    name: "Marathon Oil\t"
+    price: 13.27
+    max_price_of_day: 14.34
+    stock_Exchange: NYSE
+    update: 111
+- model: nsestock.stock
+  pk: msft
+  fields:
+    name: Microsoft Corporation
+    price: 49.995
+    max_price_of_day: 52.005
+    stock_Exchange: NYSE
+    update: 112
+- model: nsestock.stock
+  pk: mt
+  fields:
+    name: "Mittal Steel\t"
+    price: 5.57
+    max_price_of_day: 5.75
+    stock_Exchange: NYSE
+    update: 99
+- model: nsestock.stock
+  pk: ne
+  fields:
+    name: "Noble\t"
+    price: 11.09
+    max_price_of_day: 11.74
+    stock_Exchange: NYSE
+    update: 114
+- model: nsestock.stock
+  pk: nke
+  fields:
+    name: Nike
+    price: 59.2601
+    max_price_of_day: 59.43
+    stock_Exchange: NYSE
+    update: 108
+- model: nsestock.stock
+  pk: nok
+  fields:
+    name: "Nokia\t"
+    price: 5.925
+    max_price_of_day: 6.08
+    stock_Exchange: NYSE
+    update: 81
+- model: nsestock.stock
+  pk: OFSS
+  fields:
+    name: ORACLE FINANCIAL SERVICES SOFTWARE LIMITED
+    price: 3562.0
+    max_price_of_day: 3653.7
+    stock_Exchange: NSE
+    update: 148
+- model: nsestock.stock
+  pk: OIL
+  fields:
+    name: "OIL INDIA LIMITED\t"
+    price: 329.1
+    max_price_of_day: 338.0
+    stock_Exchange: NSE
+    update: 100
+- model: nsestock.stock
+  pk: ONGC
+  fields:
+    name: "OIL & NATURAL GAS CORPORATION LIMITED\t"
+    price: 211.25
+    max_price_of_day: 219.15
+    stock_Exchange: NSE
+    update: 136
+- model: nsestock.stock
+  pk: POWERGRID
+  fields:
+    name: POWER GRID CORPORATION OF INDIA LIMITED
+    price: 143.2
+    max_price_of_day: 145.3
+    stock_Exchange: NSE
+    update: 104
+- model: nsestock.stock
+  pk: RELIANCE
+  fields:
+    name: RELIANCE INDUSTRIES LIMITED
+    price: 978.4
+    max_price_of_day: 1014.55
+    stock_Exchange: NSE
+    update: 152
+- model: nsestock.stock
+  pk: SAIL
+  fields:
+    name: STEEL AUTHORITY OF INDIA LIMITED
+    price: 42.25
+    max_price_of_day: 47.5
+    stock_Exchange: NSE
+    update: 108
+- model: nsestock.stock
+  pk: SIEMENS
+  fields:
+    name: SIEMENS LIMITED
+    price: 1139.7
+    max_price_of_day: 1153.6
+    stock_Exchange: NSE
+    update: 134
+- model: nsestock.stock
+  pk: SUNTV
+  fields:
+    name: "SUN TV NETWORK LIMITED\t"
+    price: 354.0
+    max_price_of_day: 374.5
+    stock_Exchange: NSE
+    update: 140
+- model: nsestock.stock
+  pk: TATAELXSI
+  fields:
+    name: TATA ELXSI LIMITED
+    price: 1850.1
+    max_price_of_day: 1937.5
+    stock_Exchange: NSE
+    update: 148
+- model: nsestock.stock
+  pk: TCS
+  fields:
+    name: TATA CONSULTANCY SERVICES LIMITED
+    price: 2476.9
+    max_price_of_day: 2540.1
+    stock_Exchange: NSE
+    update: 150
+- model: nsestock.stock
+  pk: upl
+  fields:
+    name: "Ultra Petroleum Corp.\t"
+    price: 0.3122
+    max_price_of_day: 0.4987
+    stock_Exchange: NYSE
+    update: 18
+- model: nsestock.stock
+  pk: v
+  fields:
+    name: "Visa\t"
+    price: 77.9124
+    max_price_of_day: 79.2
+    stock_Exchange: NYSE
+    update: 114
+- model: nsestock.stock
+  pk: WIPRO
+  fields:
+    name: WIPRO LIMITED
+    price: 539.55
+    max_price_of_day: 553.5
+    stock_Exchange: NSE
+    update: 146
+- model: nsestock.stock
+  pk: x
+  fields:
+    name: "United States Steel\t"
+    price: 20.105
+    max_price_of_day: 20.3705
+    stock_Exchange: NYSE
+    update: 115

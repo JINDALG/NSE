@@ -3,7 +3,7 @@ version: '3.7'
 services:
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/home/workspace/nse
     ports:
@@ -40,6 +40,14 @@ services:
   celery:
     build: .
     command: celery -A nse worker -l info
+    volumes:
+      - .:/home/workspace/nse
+    depends_on:
+      - db
+      - redis
+  celery-beat:
+    build: .
+    command: celery -A nse beat -l info
     volumes:
       - .:/home/workspace/nse
     depends_on:
